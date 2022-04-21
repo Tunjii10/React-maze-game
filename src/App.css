@@ -1,7 +1,11 @@
+html {
+  font-size: 10px;
+}
+
 body {
-  font-size: 20px;
-  margin-left: 1.5em;
-  margin-top: 1em;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
 }
 
 
@@ -10,3 +14,48 @@ td {
   border: 1px solid black;
   border-collapse: collapse
 }
+
+td {
+  width: 5rem;
+  height: 3.5rem;
+}
+
+.sprite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.sprite img {
+  width: 50%;
+  height: 50%;
+}
+
+.mario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.mario img {
+  width: 50%;
+  height: 50%;
+}
+
+#row {
+  text-align: center;
+}
+
+/* .fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+} */
